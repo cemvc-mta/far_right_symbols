@@ -1,5 +1,6 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
+yearofadoption,Year of Adoption,,,Year Adopted
+yearlastupdated,Year Last Updated,,,Year Updated
+groupassociation, Group Association,true,,Group Association
+subject,Subjects,true,
+relatedsymbols,Related Symbols,true

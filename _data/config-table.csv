@@ -1,5 +1,10 @@
 field,display_name
-title,Title
-date,Date
-description,Description
+title,Descriptive Title
+officialtitle,Official Title
+nickname,Nickname
+yearofadoption,Year of Adoption
+yearlastupdated,Year Last Updated
+groupassociation, Group Association
+creator,Creator
+adopter,Adopter
 subject,Subjects

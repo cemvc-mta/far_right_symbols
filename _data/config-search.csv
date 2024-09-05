@@ -1,7 +1,13 @@
 field,index,display
 title,true,true
-date,true,true
-creator,true,false
-description,true,true
-subject,true,true
+officialtitle,true,false
+nickname,true,false
+groupassociation,true,true
 location,true,false
+creator,true,false
+adopter,true,false
+physicaldescription,true,false
+context,true,false
+historicalcontext,true,false
+subject,true,true
+relatedsymbols,false,true
