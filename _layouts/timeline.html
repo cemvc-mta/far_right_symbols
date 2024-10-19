@@ -13,14 +13,12 @@ custom-foot: js/timeline-js.html
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item','item.parentid == nil' -%}
 {% endif %}
 {%- assign items = items | where_exp: 'item','item[field]' -%}
-{%- assign raw-dates = site.data[site.metadata] | map: 'yearofadoption' | compact | uniq -%}
-{%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
-{%- assign uniqueYears = clean-years | replace: ";;",";" | split: ";" | compact | uniq | sort -%}
+{%- assign raw-dates = site.data[site.metadata] | map: 'yearofadoption' | compact | uniq | sort -%}
 {%- if site.data.theme.year-navigation -%}
 {%- assign navYears = site.data.theme.year-navigation | split: ";" -%}
 {%- elsif site.data.theme.year-nav-increment -%}
 {%- capture navYears -%}
-{%- for i in uniqueYears -%}{%- assign t = i | modulo: site.data.theme.year-nav-increment -%}
+{%- for i in raw-dates -%}{%- assign t = i | modulo: site.data.theme.year-nav-increment -%}
 {%- if t == 0 -%}{{ i }}{% unless forloop.last %};{% endunless %}{% endif %}{% endfor %}{%- endcapture -%}
 {%- assign navYears = navYears | split: ";" -%}
 {%- endif -%}
@@ -38,11 +36,11 @@ custom-foot: js/timeline-js.html
 
 {{ content }}
 
-<h3><a href="#y{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> to <a href="#y{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
+<h3><a href="#y{{ raw-dates | first }}">{{ raw-dates | first }}</a> to <a href="#y{{ raw-dates | last }}">{{ raw-dates | last }}</a></h3>
 
 <table id="timeline" class="table table-striped">
     <tbody>
-        {% for year in uniqueYears %}
+        {% for year in raw-dates %}
         <tr id="y{{ year }}">
             <th>
                 <h3>{{ year }}</h3>
