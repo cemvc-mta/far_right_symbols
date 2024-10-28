@@ -10,4 +10,4 @@ physicaldescription,true,false
 context,true,false
 historicalcontext,true,false
 subject,true,true
-relatedsymbols,false,true
+keywords,true,true

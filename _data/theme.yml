@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: demo_001
+featured-image: 'https://images.squarespace-cdn.com/content/v1/5eff829a5206ef2e13b2aabb/1597010177796-XJVIUVL8EHMDTDKVJPAH/image-asset.jpeg'
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 10em # Default is 8em
 # optional: change position of background image, center, top, bottom
@@ -51,14 +51,14 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
+year-nav-increment: 1 # set increments when auto gen nav years
 
 ##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,officialtitle,nickname,yearofadoption,yearlastupdated,groupassociation,location,creator,adopter,date,physicaldescription,context,historicalcontext,subject,relatedsymbols,format"
+metadata-export-fields: "title,officialtitle,nickname,yearofadoption,yearlastupdated,groupassociation,location,creator,adopter,date,physicaldescription,context,historicalcontext,subject,keywords,format"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "title,groupassociation,creator,format"
 

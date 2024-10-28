@@ -12,5 +12,5 @@ physicaldescription,Physical Description,
 context,Context,
 historicalcontext,Historical Context,
 subject,Subjects,true,
-relatedsymbols,Related Symbols,true
+keywords,Keywords,true
 format,Format

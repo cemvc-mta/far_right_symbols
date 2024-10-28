@@ -4,8 +4,9 @@ yearlastupdated,Year Last Updated,,,Year Updated
 groupassociation, Group Association,true,,Group Association
 creator,Creator,,true,
 adopter,Adopter,,true,
+location,Location,,true
 physicaldescription,Physical Description,,true,
 context,Context,,true,
 historicalcontext,Historical Context,,true,
 subject,Subjects,true,
-relatedsymbols,Related Symbols,true
+keywords,Keywords,,true
