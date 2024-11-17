@@ -14,7 +14,7 @@ credits: false
 
 ## The Collection
 
-Placeholder
+Far-right logos have more in common than the far-right ideologies that drive them. They find unity, also, in vague references to the medieval and early modern periods, which collectively help to justify ideations of identity, heritage, as well as a sense of belonginess. This collection aims to identify and explain the themes featured in the symbolism of these far-right groups and ideologies.
 
 ## The CEMVC
 

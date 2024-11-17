@@ -1,9 +1,10 @@
 display_name,stub,dropdown_parent
 Home,/
 Browse,/browse
-Subjects,/subjects
+Ideologies,/subjects
+Far-Right Groups,/far-right-groups
+Descriptive Keywords,/keywords
 Locations,/locations
-Map,/map
 Timeline,/timeline
 Data,/data
 About,/about
