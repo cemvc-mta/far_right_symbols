@@ -3,9 +3,11 @@ title: Far-Right Groups
 layout: cloud
 permalink: /far-right-groups
 cloud-fields: site.data.theme.group-fields
+cloud-min: site.data.theme.group-min
+cloud-stopwords: site.data.theme.group-stopwords
 ---
 
-## Browse Hate Groups
+## Browse Far-Right Groups
 
 Use this word cloud visualization to browse and filter based on the far-right groups currently included in this repository.
 <br>

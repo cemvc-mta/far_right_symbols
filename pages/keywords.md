@@ -3,6 +3,8 @@ title: Descriptive Keywords
 layout: cloud
 permalink: /keywords
 cloud-fields: site.data.theme.keyword-fields
+cloud-min: site.data.theme.keyword-min
+cloud-stopwords: site.data.theme.keyword-stopwords
 ---
 
 ## Browse Descriptive Categories
