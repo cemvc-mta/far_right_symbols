@@ -2,9 +2,12 @@
 title: Far-Right Groups
 layout: cloud
 permalink: /far-right-groups
-cloud-fields: site.data.theme.group-fields
-cloud-min: site.data.theme.group-min
-cloud-stopwords: site.data.theme.group-stopwords
+cloud-fields: groupassociation
+cloud-min:
+cloud-stopwords:
+#cloud-fields: site.data.theme.group-fields
+#cloud-min: site.data.theme.group-min
+#cloud-stopwords: site.data.theme.group-stopwords
 ---
 
 ## Browse Far-Right Groups

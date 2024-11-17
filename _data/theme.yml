@@ -30,16 +30,16 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 ##########
 # KEYWORDS PAGE
 #
-keyword-fields: keywords # field to be featured in the custom 'keywords' cloud page
-keyword-min: 1 # min size for subject cloud, too many terms = slow load time!
-keyword-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+#keyword-fields: keywords # field to be featured in the custom 'keywords' cloud page
+#keyword-min: 1 # min size for subject cloud, too many terms = slow load time!
+#keyword-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
 # GROUPS PAGE
 #
-group-fields: groupassociation # field to be featured in the custom 'groups' cloud page
-group-min: 1 # min size for subject cloud, too many terms = slow load time!
-group-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+#group-fields: groupassociation # field to be featured in the custom 'groups' cloud page
+#group-min: 1 # min size for subject cloud, too many terms = slow load time!
+#group-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
